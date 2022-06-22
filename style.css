@@ -29,7 +29,9 @@ body {
 
 .card {
     background-color: var(--dark_blue);
-    max-width: 20rem;
+    max-width: 25rem;
+    padding: 2rem;
+    border-radius: 2rem;
 }
 .background-star {
     background: url("/images/icon-star.svg");
@@ -42,18 +44,27 @@ body {
 }
 .text-rating {
     font-family: var(--font);
-    color: var(--white)
+    color: var(--white);
+    margin-top: 2rem;
 }
 .title {
     font-size: 1.5rem;
+    font-weight: 700;
 }
 .text {
     font-size: 0.9375rem;
     color: var(--light_gray);
+    font-weight: 400;
+    margin-top: 1rem;
+    line-height: 1.4rem;
 }
+/* rating */
+
 .score-rating {
     display: flex;
     justify-content: center;
+    margin-top: 2rem;
+    gap: 1.5rem;
 }
 .score-rating input[type="radio"] {
     opacity: 0;
@@ -70,4 +81,18 @@ body {
     width: 3rem;
     height: 3rem;
 
+}
+/* button */
+.button {
+    text-align: center;
+}
+button {
+    background-color: var(--orange);
+    color: var(--white);
+    border: none;
+    margin-top: 2rem;
+    padding: .9rem 8.5rem;
+    border-radius: 1.5rem;
+    font-size: 0.9375rem;
+    letter-spacing: .1rem;
 }
